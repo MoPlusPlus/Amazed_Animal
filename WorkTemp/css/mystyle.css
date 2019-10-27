@@ -1,3 +1,5 @@
+
+
 div.h1 {
   max-width:100%;
   /*max-height: :0px;*/
@@ -7,8 +9,24 @@ div.h1 {
   background-color: #207561;
 }
 
-body {margin: 0;}
+div.text1 {
+  width: 100%;
+  border: 5px solid green;
+  padding: 2%px;
+  background-image: url("image/forest3.png");
+}
 
+div.file1 {
+  margin: 0;
+  /* font-family: 'Bai Jamjuree', sans-serif;*/
+}
+h1 {
+ /* font-family: 'Bai Jamjuree', sans-serif;*/
+}
+table{
+  /*font-family: 'Bai Jamjuree', sans-serif;*/
+
+}
 ul.topnav {
   position: -webkit-sticky; /* Safari */
   width: 100%;
@@ -45,32 +63,70 @@ ul.topnav li.right {float: right;}
 
 strong.text_header_temp{
   color: #F6D365;
-  font:;
+  font-family: 'Staatliches', cursive;
+  font-size: 70px;
 }
 
-/*.footer {
- position: relative;
- left: 0;
- bottom: 0;
- width: 100%;
- background-color: red;
- color: white;
- text-align: center;
-}*/
+.footer {
+  position: static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: green;
+  color: white;
+  text-align: center;
+}
 
-a.copyright {
-  position: absolute;
+div.footer {
+  max-width:100%;
+  /*color: #F6D365;*/
+  height: 25px;
+  width: 100%;
+  padding-bottom: : 0px;
+  background-color: #207561;
+}
+
+/* a.copyright {
+  position: static;
   width: 100%;
   color: #fff;
   background-color: blue;
   line-height: 40px;
   font-size: 0.7em;
   text-align: center;
-  bottom:0;
-}
+  left: 0;
+  bottom: 0;
+  }*/
 
-body.new{
-  margin: 0;
-  height: 1500px;
+  /*body.new{
+    margin: 0;
+    height: 1500px;
 
-}
+    }*/
+
+    .Asia {
+      font-family: 'Staatliches', cursive;
+      font-size: 40px;
+      color: #666;
+    }
+    .describtion {
+      font-family: 'Bai Jamjuree', sans-serif;
+      /*font-size: 24px;*/
+      color: #000;
+      font-weight: normal;
+    }
+    .animalname {
+      font-family: 'Bai Jamjuree', sans-serif;
+      /*font-size: 24px;*/
+      color: #FFF;
+    }
+    .describe {
+      font-family: 'Bai Jamjuree', sans-serif;
+      /*font-size: 18px;*/
+      color: #000;
+    }
+    .taxonomy {
+      font-family: 'Bai Jamjuree', sans-serif;
+      /*font-size: 14px;*/
+      color: #000;
+    }
